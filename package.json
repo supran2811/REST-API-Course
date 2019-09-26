@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/rajrin/URIDemo#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongoose": "^4.6.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.6.9"
   }
 }

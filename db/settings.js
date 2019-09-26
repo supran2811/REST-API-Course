@@ -13,9 +13,7 @@ var uri = process.env.DB_URI
 // No need to provid ethe user /password separately its part of the URI
 // var options = {user:process.env.DB_USER, pass:process.env.DB_PASSWORD}
 
-mongoose.connect(process.env.DB_URI, {
-    useMongoClient: true
-  });
+mongoose.connect(process.env.DB_URI);
 
 // Setup event listeners for the mongoose connections
 mongoose.connection.on('error', function(err){
